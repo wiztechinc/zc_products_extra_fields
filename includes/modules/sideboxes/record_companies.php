@@ -35,7 +35,7 @@
     }
       require($template->get_template_dir('tpl_record_company_select.php',DIR_WS_TEMPLATE, $current_page_base,'sideboxes'). '/tpl_record_company_select.php');
 
-    $title = '<label>' . BOX_HEADING_RECORD_COMPANY . '</label>';
+    $title = BOX_HEADING_RECORD_COMPANY;
     $title_link = false;
     require($template->get_template_dir($column_box_default, DIR_WS_TEMPLATE, $current_page_base,'common') . '/' . $column_box_default);
   }
