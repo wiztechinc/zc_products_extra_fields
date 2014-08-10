@@ -11,7 +11,7 @@
 
   require($template->get_template_dir('tpl_search.php',DIR_WS_TEMPLATE, $current_page_base,'sideboxes'). '/tpl_search.php');
 
-  $title = '<label>' . BOX_HEADING_SEARCH . '</label>';
+  $title = BOX_HEADING_SEARCH;
   $title_link = false;
   require($template->get_template_dir($column_box_default, DIR_WS_TEMPLATE, $current_page_base,'common') . '/' . $column_box_default);
 ?>
