@@ -151,9 +151,6 @@ span.SortOrderHeaderLink{
 color:#0000ff;
 font-weight:bold;
 }
-td {
-	vertical-align: top;
-}
 td.alert,span.alert{
 color:#ff0000;
 font-weight:bold;
