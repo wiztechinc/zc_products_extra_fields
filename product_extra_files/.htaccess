@@ -1,0 +1,12 @@
+OPTIONS -Indexes -ExecCGI 
+
+<FilesMatch ".*">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+# but now allow just *certain* necessary files:
+<FilesMatch "(?i).*\.(zip|ZIP|gzip|pdf|PDF|mp3|swf|SWF|wma|wmv|wav|epub|EPUB|ogg|webm|m4v|m4a)$">
+  Order Allow,Deny
+  Allow from all
+</FilesMatch>
